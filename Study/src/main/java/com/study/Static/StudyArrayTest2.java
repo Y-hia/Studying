@@ -1,0 +1,26 @@
+package com.study.Static;
+
+import java.util.Scanner;
+
+public class StudyArrayTest2 {
+    /*
+    动态给数组赋值
+     */
+    public static void main(String[] args) {
+        double[] scores = new double[6];
+        Scanner sc = new Scanner(System.in);
+        
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println("请输入你的分数");
+            double TyScores = sc.nextDouble();
+            scores[i] = TyScores;
+        }
+
+        double sum = 0;
+        for (double score : scores) {
+            sum = sum + score;
+        }
+
+        System.out.println("总分为" + sum + "\n平均分为" + sum / scores.length);
+    }
+}
