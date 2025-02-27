@@ -1,4 +1,4 @@
-package com.study.Static_Code;
+package com.study.static_code;
 
 import java.util.ArrayList;
 

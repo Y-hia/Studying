@@ -1,4 +1,4 @@
-package com.study.Array;
+package com.study.array;
 
 public class StudyArrayTest1 {
     /**

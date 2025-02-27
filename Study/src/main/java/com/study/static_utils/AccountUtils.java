@@ -1,4 +1,4 @@
-package com.study.Static_Utils;
+package com.study.static_utils;
 
 public class AccountUtils {
     public static final String username = "admin";
