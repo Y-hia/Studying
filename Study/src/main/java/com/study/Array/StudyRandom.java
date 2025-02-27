@@ -1,4 +1,4 @@
-package com.study.Static;
+package com.study.Array;
 
 import java.util.Random;
 import java.util.Scanner;

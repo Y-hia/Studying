@@ -1,4 +1,4 @@
-package com.study.Array;
+package com.study.Static.Utils;
 
 import java.util.Random;
 

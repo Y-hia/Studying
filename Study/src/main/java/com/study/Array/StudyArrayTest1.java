@@ -1,4 +1,4 @@
-package com.study.Static;
+package com.study.Array;
 
 public class StudyArrayTest1 {
     /**
