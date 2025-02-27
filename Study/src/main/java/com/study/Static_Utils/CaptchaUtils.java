@@ -1,8 +1,8 @@
-package com.study.Static.Utils;
+package com.study.Static_Utils;
 
 import java.util.Random;
 
-public class Captcha {
+public class CaptchaUtils {
     /**
      * 生成包含数字和英文的验证码
      */

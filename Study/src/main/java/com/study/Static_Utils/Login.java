@@ -1,7 +1,4 @@
-package com.study.Static;
-
-import com.study.Static.Utils.Account;
-import com.study.Static.Utils.Captcha;
+package com.study.Static_Utils;
 
 import java.util.Scanner;
 
@@ -19,8 +16,8 @@ public class Login {
             String account = scanner.next();
             System.out.println("密码: ");
             String password = scanner.next();
-            System.out.println(Account.checkLogin(account,password));
-            if(Account.checkLogin(account, password).equals("登录成功")){
+            System.out.println(AccountUtils.checkLogin(account,password));
+            if(AccountUtils.checkLogin(account, password).equals("登录成功")){
                 break;
             }
         }
