@@ -3,8 +3,9 @@ package com.study.Static;
 import java.util.Scanner;
 
 public class StudyArrayTest2 {
-    /*
-    动态给数组赋值
+    /**
+     * 输入6个学生成绩，求出平均分(动态给数组赋值)
+     * @param args
      */
     public static void main(String[] args) {
         double[] scores = new double[6];
