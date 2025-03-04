@@ -8,7 +8,6 @@ public class EagerSingleton {
 
     }
 
-
     public static EagerSingleton getName(){
         return  name;
     }
