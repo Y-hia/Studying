@@ -2,7 +2,7 @@ package com.study.array;
 
 import java.util.Scanner;
 
-public class StudyArrayTest2 {
+public class ArrayTest2 {
     /**
      * 输入6个学生成绩，求出平均分(动态给数组赋值)
      * @param args

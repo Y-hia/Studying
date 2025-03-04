@@ -12,10 +12,11 @@ public class ConstructorTest1 {
         this.name = name;
     }
 
+    //无参构造方法
     public ConstructorTest1(){
 
     }
-
+    //带参构造方法
     public ConstructorTest1(String name){
         this.name = name;
     }

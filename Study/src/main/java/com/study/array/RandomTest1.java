@@ -3,7 +3,7 @@ package com.study.array;
 import java.util.Random;
 import java.util.Scanner;
 
-public class StudyRandom {
+public class RandomTest1 {
     public static void main(String[] args) {
         Random random = new Random();
         int LuckNumber= random.nextInt(100);

@@ -1,6 +1,6 @@
 package com.study.array;
 
-public class StudyArrayTest1 {
+public class ArrayTest1 {
     /**
      * 遍历数组
      * @param args
