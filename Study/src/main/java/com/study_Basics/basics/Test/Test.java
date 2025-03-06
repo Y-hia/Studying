@@ -1,6 +1,4 @@
-package com.study.Test;
-
-import com.study.extend.Student;
+package com.study_Basics.basics.Test;
 
 
 public class Test {

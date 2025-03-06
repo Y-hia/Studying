@@ -1,4 +1,4 @@
-package com.study.constructor;
+package com.study_Basics.basics.constructor;
 
 public class ConstructorTest1 {
 

@@ -1,4 +1,4 @@
-package com.study.static_utils;
+package com.study_Basics.basics.static_utils;
 
 import java.util.Scanner;
 

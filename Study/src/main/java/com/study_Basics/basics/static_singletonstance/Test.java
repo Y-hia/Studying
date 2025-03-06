@@ -1,4 +1,4 @@
-package com.study.static_singletonstance;
+package com.study_Basics.basics.static_singletonstance;
 
 public class Test {
 
