@@ -1,4 +1,4 @@
-package com.study_Basics.extend.extend_modifier1;
+package com.study_Basics.extend.d1_extend_modifier1;
 
 public class Demo1 {
     public static void main(String[] args) {

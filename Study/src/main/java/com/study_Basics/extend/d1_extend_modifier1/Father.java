@@ -1,4 +1,4 @@
-package com.study_Basics.extend.extend_modifier1;
+package com.study_Basics.extend.d1_extend_modifier1;
 
 public class Father {
     // private 私有的，只能在本类中访问

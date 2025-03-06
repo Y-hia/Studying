@@ -1,6 +1,6 @@
-package com.study_Basics.extend.extend_modifier2;
+package com.study_Basics.extend.d2_extend_modifier2;
 
-import com.study_Basics.extend.extend_modifier1.Father;
+import com.study_Basics.extend.d1_extend_modifier1.Father;
 
 public class Demo2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.study_Basics.extend.extend_feature;
+package com.study_Basics.extend.d3_extend_feature;
 
 public class Test {
     public static void main(String[] args) {
