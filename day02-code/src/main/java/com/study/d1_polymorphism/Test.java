@@ -13,7 +13,7 @@ public class Test {
 
         Animal a1 = new Dog();
         a1.cry(); // 编译看左，运行看右边 输出：🐕是汪汪汪的叫
-        System.out.println(a1.name);
+        System.out.println(a1.name);// 变量没有多态性，编译看左，运行也看左 输出：动物
     }
 }
 
