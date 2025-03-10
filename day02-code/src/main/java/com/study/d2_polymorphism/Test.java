@@ -19,7 +19,7 @@ public class Test{
 //        a.lookDoor();
 //        a.catchMouse();
     }
-
+    
     public static void go(Animal a) {
        a.cry();
     }
@@ -37,7 +37,7 @@ class Animal{
     public void cry(){
          System.out.println("🐱是喵喵喵的叫");
      }
-     //子类独有的方法 catchMouse
+     //子类独有的方法 catchMouse，多态下不能调用
      public void catchMouse(){
          System.out.println("猫会抓老鼠");
      }
@@ -49,7 +49,7 @@ class Dog extends Animal{
     public void cry(){
         System.out.println("🐕是汪汪汪的叫");
     }
-    //子类独有的方法 lookDoor
+    //子类独有的方法 lookDoor，多态下不能调用
     public void lookDoor(){
         System.out.println("狗会看门");
     }
