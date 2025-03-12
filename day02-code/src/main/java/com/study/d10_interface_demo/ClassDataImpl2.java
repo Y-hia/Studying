@@ -21,10 +21,20 @@ public class ClassDataImpl2 implements ClassData{
 
     @Override
     public void printStudentScore() {
+        Student s1 = students.getFirst();
+        double avg = s1.getScore();;
+        double max = avg;
+        double min = avg;
         double sum = 0;
         for (Student s : students) {
+            if (s.getScore() > max){
+                max = s.getScore();
+            }
+            if(s.getScore() < min){
+                min = s.getScore();
+            }
             sum += s.getScore();
         }
-        System.out.println("总分为："+sum);
+        System.out.println("最高分为："+max+","+"最低分为："+min+","+"平均分为："+((sum-max-min)/(students.size()-2)));
     }
 }
