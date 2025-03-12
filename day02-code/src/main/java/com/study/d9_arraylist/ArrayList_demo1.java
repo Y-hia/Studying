@@ -24,7 +24,7 @@ public class ArrayList_demo1 {
             if(list.get(i).contains("C")){
                 list.remove(i);
                 i--;
-            };
+            }
         }
         System.out.println(list);
     }
