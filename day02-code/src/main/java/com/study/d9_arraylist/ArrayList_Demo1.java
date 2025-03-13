@@ -3,7 +3,7 @@ package com.study.d9_arraylist;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class ArrayList_demo1 {
+public class ArrayList_Demo1 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("ABC");
