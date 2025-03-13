@@ -4,14 +4,14 @@ public class OuterClass {
     //外部类静态变量
     private static String dog = "狗子";
     //外部类静态方法
-    public static void go(){
+    private static void go(){
         System.out.println("开始跑");
     }
 
     //外部类的实例变量
-    String bord = "小鸟";
+    private String bord = "小鸟";
     //外部类实例方法
-    public void fly(){
+    private void fly(){
         System.out.println("开始飞");
     }
     //成员内部类
