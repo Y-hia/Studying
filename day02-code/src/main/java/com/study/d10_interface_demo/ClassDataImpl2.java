@@ -21,7 +21,7 @@ public class ClassDataImpl2 implements ClassData{
 
     @Override
     public void printStudentScore() {
-        Student s1 = students.getFirst();
+        Student s1 = students.get(0);
         double avg = s1.getScore();;
         double max = avg;
         double min = avg;
