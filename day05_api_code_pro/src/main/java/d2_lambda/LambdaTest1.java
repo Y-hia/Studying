@@ -29,7 +29,7 @@ public class LambdaTest1 {
 //        };
 //        it.work();
         // 使用lambda表达式简化代码的写法
-        ItWorker it1 = () -> {System.out.println("IT工程师会写代码");};
+        ItWorker it1 = () -> System.out.println("IT工程师会写代码");
         it1.work();
     }
 }

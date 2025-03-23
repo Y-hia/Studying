@@ -23,7 +23,7 @@ public class ArraysDemo1 {
             }
         });
         //使用lambda表达式简化后的代码
-        Arrays.setAll(arr, (int index) -> arr[index] + 10);
+        Arrays.setAll(arr, (index)-> arr[index] + 10);
 
         System.out.println(Arrays.toString(arr));
         //5、排序数组
