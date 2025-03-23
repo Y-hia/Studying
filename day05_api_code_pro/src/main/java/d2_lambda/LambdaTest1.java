@@ -33,11 +33,10 @@ public class LambdaTest1 {
         it1.work();
     }
 }
-
+@FunctionalInterface //函数式接口的注解
 interface ItWorker{
     void work();
 }
-
 abstract class People {
     abstract void eat();
 }

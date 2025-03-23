@@ -22,9 +22,10 @@ public class ArraysDemo2 {
                 return  o2.getAge() - o1.getAge();
             }
         });
-
+        //使用lambda简化代码
+        Arrays.sort(stu, (Student o1, Student o2) -> -o2.getAge() - o1.getAge());
+        //按年龄排序
         Arrays.sort(stu, new Comparator<Student>() {
-            //用年龄比较
             @Override
             public int compare(Student o1, Student o2) {
                 //按身高排序
@@ -38,6 +39,8 @@ public class ArraysDemo2 {
                 return Double.compare(o2.getHeight() , o1.getHeight()); //高级的写法
             }
         });
+        //使用lambda表达式简化后的代码
+        Arrays.sort(stu, (Student o1, Student o2) -> Double.compare(o2.getHeight() , o1.getHeight()));
 
         System.out.println(Arrays.toString(stu));
     }
