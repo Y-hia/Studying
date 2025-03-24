@@ -17,6 +17,6 @@ public class StringBuilderDemo2 {
         for (int i = 0; i < 1000000; i++) {
             num += i ;
         }
-//        System.out.println(num);
+//        System.out.println(num); 输出很卡
     }
 }

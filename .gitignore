@@ -3,9 +3,13 @@
 
 # IntelliJ project files
 .idea
-*.iml
-out
-gen
-
-*.class
+.project
+.settings
 target
+.classpath
+*.iml
+/bin/
+*.log
+
+.vscode
+

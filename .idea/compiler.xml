@@ -9,6 +9,7 @@
         <module name="day01-code" />
         <module name="day04_api_code" />
         <module name="day05_api_code_pro" />
+        <module name="day05_api_code" />
         <module name="day03_code" />
         <module name="day02-code" />
       </profile>
