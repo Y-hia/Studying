@@ -9,13 +9,13 @@
         <module name="day01-code" />
         <module name="day04_api_code" />
         <module name="day05_api_code_pro" />
-        <module name="day05_api_code" />
         <module name="day03_code" />
         <module name="day02-code" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.day.10" target="23" />
+      <module name="day05_api_code" target="23" />
       <module name="Study" target="23" />
     </bytecodeTargetLevel>
   </component>
