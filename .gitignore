@@ -10,6 +10,6 @@ target
 *.iml
 /bin/
 *.log
-
+out
 .vscode
 
