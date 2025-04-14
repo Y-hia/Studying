@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="day01-code" />
         <module name="day04_api_code" />
+        <module name="day07-collection-map" />
         <module name="day03_code" />
         <module name="day05_api_code_pro" />
         <module name="day06-exception-collection" />
         <module name="day02-code" />
-        <module name="day06-exception-collection (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
