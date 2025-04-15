@@ -11,6 +11,7 @@
         <module name="day04_api_code" />
         <module name="day07-collection-map" />
         <module name="day03_code" />
+        <module name="day08-stream-file-io" />
         <module name="day05_api_code_pro" />
         <module name="day06-exception-collection" />
         <module name="day02-code" />

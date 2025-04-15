@@ -19,5 +19,7 @@
     <file url="file://$PROJECT_DIR$/day06-exception-collection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day07-collection-map/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day07-collection-map/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08-stream-file-io/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day08-stream-file-io/src/main/resources" charset="UTF-8" />
   </component>
 </project>
