@@ -14,12 +14,31 @@ public class TableToDbQueryExporter {
 
     public static void main(String[] args) throws IOException {
         // 配置参数（根据实际需求修改）
-        String inputFilePath = "C:\\Users\\PC\\Downloads\\迁移ID1.xlsx";    // 输入表格文件路径（支持.xls/.xlsx）
+        String inputFilePath = "C:\\Users\\PC\\Downloads\\【内】转户list-近30天无消耗子账户-数据截止1110.xlsx";    // 输入表格文件路径（支持.xls/.xlsx）
         String outputFilePath = "C:\\Users\\PC\\Downloads\\result.xlsx";  // 导出结果文件路径
         int targetSheetIndex = 0;                  // 输入表格中目标工作表索引（0开始，第一个表为0）
         int targetColumn = 1;                      // 目标列索引（0开始，A列为0，B列为1...）
         int startRow = 1;                          // 开始读取的行索引（跳过表头，从数据行开始，0为第一行）
-        String querySql = "SELECT ORGID,MEDIA_ACCOUNT_ID,MEDIA_ACCOUNT_NAME,SURPLUS_VALID_POINT FROM BO_EU_BOOK_RECHARGE_POINT WHERE MEDIA_ACCOUNT_ID = ? GROUP BY ORGID,MEDIA_ACCOUNT_NAME";  // 数据库查询SQL（?为占位符）
+        String querySql = """
+                SELECT
+                	( SELECT orgcompany.COMPANYNAME FROM orgcompany WHERE orgcompany.ID = ORGID ) ORGID,
+                	MEDIA_ACCOUNT_ID,
+                	MEDIA_ACCOUNT_NAME,
+                	SURPLUS_VALID_POINT,
+                	SALES_POLICY,
+                	ROUND((RECHARGE_AMOUNT-CONSUME_AMOUNT-REFUND_RECHARGE_AMOUNT),2),
+                 	ROUND(SURPLUS_VALID_POINT/(1+(SALES_POLICY/100)),2),
+                	BILL_NUMBER,
+                	BELONG_SUBJECT_NAME,
+                	CONTRACT_SUBJECT_NAME
+                FROM
+                	VIEW_EU_OBJ_EXECUTE
+                WHERE
+                	MEDIA_ACCOUNT_ID = ?
+                	AND SURPLUS_POINT > 0
+                GROUP BY 
+                	BELONG_SUBJECT_NAME,CONTRACT_SUBJECT_NAME
+                """;  // 数据库查询SQL（?为占位符）
 
         try {
             // 1. 读取输入表格指定列的数据
